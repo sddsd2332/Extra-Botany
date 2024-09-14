@@ -2,7 +2,6 @@ package com.meteor.extrabotany.common.block.subtile.generating;
 
 import com.meteor.extrabotany.api.subtile.SubTileGeneratingNature;
 import com.meteor.extrabotany.common.core.config.ConfigHandler;
-
 import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
 import net.minecraft.util.math.BlockPos;

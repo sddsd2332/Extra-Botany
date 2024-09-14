@@ -1,9 +1,5 @@
 package com.meteor.extrabotany.common.item.equipment.armor.shadowwarrior;
 
-import java.util.List;
-import java.util.UUID;
-import javax.annotation.Nullable;
-
 import com.google.common.collect.Multimap;
 import com.meteor.extrabotany.api.ExtraBotanyAPI;
 import com.meteor.extrabotany.api.item.IDarkElfSpawner;
@@ -24,6 +20,10 @@ import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 import vazkii.botania.common.core.helper.ItemNBTHelper;
+
+import javax.annotation.Nullable;
+import java.util.List;
+import java.util.UUID;
 
 public class ItemShadowWarriorArmor extends ItemCosmeticMaidArmor implements IDarkElfSpawner{
 	

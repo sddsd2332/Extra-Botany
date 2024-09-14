@@ -1,7 +1,5 @@
 package com.meteor.extrabotany.common.core.handler;
 
-import java.util.Arrays;
-
 import com.meteor.extrabotany.api.ExtraBotanyAPI;
 import com.meteor.extrabotany.common.block.ModBlocks;
 import com.meteor.extrabotany.common.item.ModItems;
@@ -20,6 +18,8 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import java.util.Arrays;
 
 @Mod.EventBusSubscriber(modid = Reference.MOD_ID)
 public class StatHandler {

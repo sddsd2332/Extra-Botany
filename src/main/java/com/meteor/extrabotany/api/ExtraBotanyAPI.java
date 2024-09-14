@@ -1,10 +1,5 @@
 package com.meteor.extrabotany.api;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
-
 import com.gamerforea.eventhelper.util.EventUtils;
 import com.meteor.extrabotany.ExtraBotany;
 import com.meteor.extrabotany.common.core.config.ConfigHandler;
@@ -37,6 +32,11 @@ import vazkii.botania.api.BotaniaAPI;
 import vazkii.botania.api.lexicon.KnowledgeType;
 import vazkii.botania.api.lexicon.LexiconCategory;
 import vazkii.botania.api.recipe.RecipeManaInfusion;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
 public class ExtraBotanyAPI {
 

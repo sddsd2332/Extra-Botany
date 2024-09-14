@@ -1,9 +1,5 @@
 package com.meteor.extrabotany.client.render.entity.gaia;
 
-import java.util.Map;
-
-import javax.annotation.Nonnull;
-
 import com.meteor.extrabotany.ExtraBotany;
 import com.meteor.extrabotany.client.ClientProxy;
 import com.meteor.extrabotany.client.lib.LibResource;
@@ -11,7 +7,6 @@ import com.meteor.extrabotany.common.core.config.ConfigHandler;
 import com.meteor.extrabotany.common.entity.gaia.EntityGaiaIII;
 import com.mojang.authlib.GameProfile;
 import com.mojang.authlib.minecraft.MinecraftProfileTexture;
-
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.model.ModelPlayer;
 import net.minecraft.client.renderer.entity.RenderBiped;
@@ -20,6 +15,9 @@ import net.minecraft.client.resources.DefaultPlayerSkin;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+
+import javax.annotation.Nonnull;
+import java.util.Map;
 
 @SideOnly(Side.CLIENT)
 public class RenderGaiaIII extends RenderBiped<EntityGaiaIII> {

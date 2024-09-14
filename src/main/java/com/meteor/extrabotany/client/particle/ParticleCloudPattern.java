@@ -1,7 +1,6 @@
 package com.meteor.extrabotany.client.particle;
 
 import com.meteor.extrabotany.common.lib.Reference;
-
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.particle.Particle;
 import net.minecraft.client.renderer.BufferBuilder;

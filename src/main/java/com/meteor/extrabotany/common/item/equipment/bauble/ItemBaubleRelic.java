@@ -1,10 +1,5 @@
 package com.meteor.extrabotany.common.item.equipment.bauble;
 
-import java.util.List;
-import java.util.UUID;
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import com.meteor.extrabotany.api.item.IAdvancementRequired;
 import com.meteor.extrabotany.common.entity.EntityItemUnbreakable;
 import com.meteor.extrabotany.common.lib.LibAdvancements;
@@ -27,6 +22,11 @@ import vazkii.botania.api.item.IRelic;
 import vazkii.botania.common.advancements.RelicBindTrigger;
 import vazkii.botania.common.core.helper.ItemNBTHelper;
 import vazkii.botania.common.item.relic.ItemRelic;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.util.List;
+import java.util.UUID;
 
 public abstract class ItemBaubleRelic extends ItemBauble implements IRelic, IAdvancementRequired{
 	

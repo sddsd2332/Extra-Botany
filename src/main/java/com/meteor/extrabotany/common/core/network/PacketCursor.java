@@ -1,7 +1,6 @@
 package com.meteor.extrabotany.common.core.network;
 
 import com.meteor.extrabotany.client.core.handler.EventHandlerClient;
-
 import io.netty.buffer.ByteBuf;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.entity.EntityPlayerSP;

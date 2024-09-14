@@ -1,16 +1,14 @@
 package com.meteor.extrabotany.client.integration.jei.pedestal;
 
-import java.util.List;
-
-import javax.annotation.Nonnull;
-
 import com.google.common.collect.ImmutableList;
 import com.meteor.extrabotany.common.crafting.recipe.RecipePedestal;
-
 import mezz.jei.api.ingredients.IIngredients;
 import mezz.jei.api.ingredients.VanillaTypes;
 import mezz.jei.api.recipe.IRecipeWrapper;
 import net.minecraft.item.ItemStack;
+
+import javax.annotation.Nonnull;
+import java.util.List;
 
 public class HammerRecipeWrapper implements IRecipeWrapper{
 

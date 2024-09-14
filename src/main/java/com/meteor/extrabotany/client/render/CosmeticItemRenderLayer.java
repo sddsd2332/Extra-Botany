@@ -1,12 +1,7 @@
 package com.meteor.extrabotany.client.render;
 
-import javax.annotation.Nonnull;
-
-import org.lwjgl.opengl.GL11;
-
 import com.meteor.extrabotany.client.model.ModelGreenHat;
 import com.meteor.extrabotany.common.brew.ModPotions;
-
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.client.renderer.entity.layers.LayerRenderer;
@@ -17,9 +12,12 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.items.CapabilityItemHandler;
 import net.minecraftforge.items.IItemHandler;
+import org.lwjgl.opengl.GL11;
 import vazkii.botania.api.item.IBaubleRender;
 import vazkii.botania.api.item.IBaubleRender.RenderType;
 import vazkii.botania.common.item.ItemBaubleBox;
+
+import javax.annotation.Nonnull;
 
 public class CosmeticItemRenderLayer implements LayerRenderer<EntityPlayer> {
 

@@ -11,7 +11,6 @@ import net.minecraft.util.ITickable;
 import vazkii.botania.api.mana.IManaItem;
 import vazkii.botania.api.mana.IManaPool;
 import vazkii.botania.common.Botania;
-import vazkii.botania.common.core.helper.Vector3;
 
 public class TileChargePad extends TileInventoryBase implements ITickable{
 	

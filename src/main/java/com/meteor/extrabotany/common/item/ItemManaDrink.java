@@ -1,9 +1,6 @@
 package com.meteor.extrabotany.common.item;
 
-import javax.annotation.Nonnull;
-
 import com.meteor.extrabotany.common.lib.LibItemsName;
-
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.MobEffects;
 import net.minecraft.item.EnumAction;
@@ -12,6 +9,8 @@ import net.minecraft.potion.PotionEffect;
 import net.minecraft.world.World;
 import vazkii.botania.api.mana.IManaGivingItem;
 import vazkii.botania.api.mana.ManaItemHandler;
+
+import javax.annotation.Nonnull;
 
 public class ItemManaDrink extends ItemFoodMod implements IManaGivingItem {
 

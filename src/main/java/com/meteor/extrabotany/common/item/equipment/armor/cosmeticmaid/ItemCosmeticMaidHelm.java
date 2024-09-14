@@ -1,7 +1,5 @@
 package com.meteor.extrabotany.common.item.equipment.armor.cosmeticmaid;
 
-import javax.annotation.Nullable;
-
 import com.meteor.extrabotany.api.ExtraBotanyAPI;
 import com.meteor.extrabotany.common.lib.LibAdvancements;
 import com.meteor.extrabotany.common.lib.LibItemsName;
@@ -10,6 +8,8 @@ import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
 import vazkii.botania.api.mana.IManaDiscountArmor;
+
+import javax.annotation.Nullable;
 
 public class ItemCosmeticMaidHelm  extends ItemCosmeticMaidArmor implements IManaDiscountArmor{
 	

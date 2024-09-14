@@ -1,11 +1,10 @@
 package com.meteor.extrabotany.client.core.handler;
 
+import baubles.api.BaublesApi;
 import com.meteor.extrabotany.client.particle.ParticleCloudPattern;
 import com.meteor.extrabotany.common.core.handler.PersistentVariableHandler;
 import com.meteor.extrabotany.common.item.ModItems;
 import com.meteor.extrabotany.common.lib.Reference;
-
-import baubles.api.BaublesApi;
 import net.minecraft.client.Minecraft;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;

@@ -1,9 +1,8 @@
 package com.meteor.extrabotany.common.core.handler;
 
-import org.apache.logging.log4j.Logger;
-
 import com.meteor.extrabotany.ExtraBotany;
 import com.meteor.extrabotany.common.core.config.ConfigHandler;
+import org.apache.logging.log4j.Logger;
 
 public class Meme {
 	

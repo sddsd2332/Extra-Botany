@@ -54,7 +54,7 @@ public class ItemDaedalusStormbow extends ItemBow implements IManaUsingItem, IRe
 		super();
 		setCreativeTab(ExtraBotanyCreativeTab.INSTANCE);
 		setRegistryName(new ResourceLocation(Reference.MOD_ID, LibItemsName.DAEDALUSSTORMBOW));
-		setUnlocalizedName(LibItemsName.DAEDALUSSTORMBOW);
+		setTranslationKey(LibItemsName.DAEDALUSSTORMBOW);
 	}
 
 	@Override

@@ -34,7 +34,7 @@ public class ItemHammer extends ItemPickaxe implements IModelReg, IHammer, IMana
 		super(material);
 		setCreativeTab(ExtraBotanyCreativeTab.INSTANCE);
 		setRegistryName(new ResourceLocation(Reference.MOD_ID, name));
-		setUnlocalizedName(name);
+		setTranslationKey(name);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 	

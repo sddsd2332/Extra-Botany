@@ -39,7 +39,7 @@ public class ItemShieldCopy extends ItemShield implements IModelReg{
 	public ItemShieldCopy(ToolMaterial material, String name) {
 		setCreativeTab(ExtraBotanyCreativeTab.INSTANCE);
 		setRegistryName(new ResourceLocation(Reference.MOD_ID, name));
-		setUnlocalizedName(name);
+		setTranslationKey(name);
 		this.name = name;
 		this.material = material;
 		this.setMaxDamage(material.getMaxUses() * 2);

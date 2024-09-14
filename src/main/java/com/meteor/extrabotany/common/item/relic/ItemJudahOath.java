@@ -50,7 +50,7 @@ public class ItemJudahOath extends ItemModRelic implements ICosmeticItem, IManaU
 	@Override
 	public Multimap<String, AttributeModifier> getAttributeModifiers(EntityEquipmentSlot slot, ItemStack stack) {
 		Multimap<String, AttributeModifier> attrib = super.getAttributeModifiers(slot, stack);
-		UUID uuid = new UUID((getUnlocalizedName() + slot.toString()).hashCode(), 0);
+		UUID uuid = new UUID((getTranslationKey() + slot.toString()).hashCode(), 0);
 		if (slot == slot.MAINHAND) {
 			attrib.put(SharedMonsterAttributes.ATTACK_DAMAGE.getName(),
 					new AttributeModifier(uuid, "Weapon modifier", 12, 0));
@@ -62,7 +62,7 @@ public class ItemJudahOath extends ItemModRelic implements ICosmeticItem, IManaU
 
 	@Nonnull
 	@Override
-	public String getUnlocalizedName(ItemStack par1ItemStack) {
+	public String getTranslationKey(ItemStack par1ItemStack) {
 		return "item." + LibItemsName.JUDAHOATHS[Math.min(types - 1, par1ItemStack.getItemDamage())];
 	}
 

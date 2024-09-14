@@ -62,7 +62,7 @@ public class ItemCosmeticMaidArmor extends ItemArmor implements ISpecialArmor, I
 		this.type = type;
 		setCreativeTab(ExtraBotanyCreativeTab.INSTANCE);
 		setRegistryName(new ResourceLocation(Reference.MOD_ID, name));
-		setUnlocalizedName(name);
+		setTranslationKey(name);
 	}
 
 	@Nonnull

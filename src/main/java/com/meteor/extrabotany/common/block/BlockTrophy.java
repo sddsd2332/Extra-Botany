@@ -41,7 +41,7 @@ public class BlockTrophy extends BlockMod{
 	@SideOnly(Side.CLIENT)
 	@Nonnull
 	@Override
-	public BlockRenderLayer getBlockLayer() {
+	public BlockRenderLayer getRenderLayer() {
 		return BlockRenderLayer.CUTOUT;
 	}
 	
@@ -70,12 +70,12 @@ public class BlockTrophy extends BlockMod{
 	public AxisAlignedBB getBoundingBox(IBlockState state, IBlockAccess world, BlockPos pos) {
 		return AABB;
 	}
-	
+
 	@Override
 	public IBlockState getStateFromMeta(int meta){
-	        return this.getDefaultState().withProperty(FACING, EnumFacing.getFront(meta & 7));
+	        return this.getDefaultState().withProperty(FACING, EnumFacing.byIndex(meta & 7));
 	}
-	
+
 	@Override
 	public int getMetaFromState(IBlockState state){
 		int i = 0;

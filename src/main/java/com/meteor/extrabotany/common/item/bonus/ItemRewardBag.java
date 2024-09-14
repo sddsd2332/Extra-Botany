@@ -44,7 +44,7 @@ public class ItemRewardBag extends ItemBonusBase {
 
 	@Nonnull
 	@Override
-	public String getUnlocalizedName(ItemStack par1ItemStack) {
+	public String getTranslationKey(ItemStack par1ItemStack) {
 		return "item." + LibItemsName.REWARD_BAGS_NAMES[Math.min(types - 1, par1ItemStack.getItemDamage())];
 	}
 

@@ -23,8 +23,9 @@ public class ExtraBotanyCreativeTab extends CreativeTabs {
 		setBackgroundImageName("extrabotany.png");
 	}
 
+	@Nonnull
 	@Override
-	public ItemStack getTabIconItem() {
+	public ItemStack createIcon() {
 		return new ItemStack(ModItems.kinggarden);
 	}
 

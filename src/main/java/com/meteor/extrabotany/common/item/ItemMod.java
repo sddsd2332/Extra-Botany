@@ -20,7 +20,7 @@ public class ItemMod extends Item implements IModelReg {
 	public ItemMod(String name) {
 		setCreativeTab(ExtraBotanyCreativeTab.INSTANCE);
 		setRegistryName(new ResourceLocation(Reference.MOD_ID, name));
-		setUnlocalizedName(name);
+		setTranslationKey(name);
 		addPropertyOverride(new ResourceLocation("extrabotany:chris"), (stack, worldIn, entityIn) -> {
 			return ClientProxy.christmas ? 1.0F : 0.0F;
 		});

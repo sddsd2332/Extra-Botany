@@ -21,7 +21,7 @@ public class ItemFoodMod extends ItemFood implements IModelReg {
 		super(amount, saturation, isWolfFood);
 		setCreativeTab(ExtraBotanyCreativeTab.INSTANCE);
 		setRegistryName(new ResourceLocation(Reference.MOD_ID, name));
-		setUnlocalizedName(name);
+		setTranslationKey(name);
 		setAlwaysEdible();
 		addPropertyOverride(new ResourceLocation("extrabotany:chris"), (stack, worldIn, entityIn) -> {
 			return ClientProxy.christmas ? 1.0F : 0.0F;

@@ -90,7 +90,7 @@ public class ItemLens extends ItemMod implements ILensControl, ICompositableLens
 
 	@Nonnull
 	@Override
-	public String getUnlocalizedName(ItemStack stack) {
+	public String getTranslationKey(ItemStack stack) {
 		return "item." + LibItemsName.LENSES[Math.min(SUBTYPES - 1, stack.getItemDamage())];
 	}
 
@@ -113,7 +113,7 @@ public class ItemLens extends ItemMod implements ILensControl, ICompositableLens
 	}
 
 	private String getItemShortTermName(ItemStack stack) {
-		return I18n.format(stack.getUnlocalizedName().replaceAll("item.", "item.botania:") + ".short");
+		return I18n.format(stack.getTranslationKey().replaceAll("item.", "item.botania:") + ".short");
 	}
 
 	@Nonnull

@@ -5,10 +5,11 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.ResourceLocation;
 
 public interface IAdvancementRequired {
+
 	@Deprecated
 	default String getAdvancementName(ItemStack stack) {
 		return getRequiredAdvancementId(stack)
-			.getResourcePath()
+			.getPath()
 			.substring(LibAdvancements.PREFIX.length());
 	}
 

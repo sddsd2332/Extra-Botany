@@ -23,7 +23,7 @@ public class ItemModRecord extends ItemRecord implements IModelReg {
 		super("extrabotany:" + record, sound);
 		setCreativeTab(ExtraBotanyCreativeTab.INSTANCE);
 		setRegistryName(new ResourceLocation(Reference.MOD_ID, name));
-		setUnlocalizedName(name);
+		setTranslationKey(name);
 		file = "extrabotany:music." + record;
 	}
 

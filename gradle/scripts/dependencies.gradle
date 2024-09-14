@@ -1,6 +1,9 @@
 apply from: 'gradle/scripts/helpers.gradle'
 
 repositories {
+    flatDir {
+        dirs("libs")
+    }
     // Other repositories described by default:
     // CleanroomMC: https://maven.cleanroommc.com
     exclusiveContent {
@@ -70,7 +73,9 @@ dependencies {
     implementation rfg.deobf("curse.maven:mantle-74924:2713386")
     implementation rfg.deobf("curse.maven:tinkers-construct-74072:2902483")
     implementation rfg.deobf("curse.maven:constructs-armory-287683:3174535")
-    
+    implementation 'curse.maven:albedo-275300:2714505'
+    implementation 'curse.maven:redstone-flux-270789:2920436'
+    implementation rfg.deobf("ExtraMeteorP:EventHelper:1.12.2:2.6.2")
     runtimeOnly 'curse.maven:ftb-library-237167:2985811'
     runtimeOnly 'curse.maven:ftb-utilities-237102:3157548'
     runtimeOnly 'curse.maven:had-enough-characters-640802:4035773'
